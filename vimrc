@@ -30,3 +30,21 @@ set cursorline
 
 "语法高亮
 set syntax=on
+
+
+" 在处理未保存或只读文件的时候，弹出确认
+set confirm
+
+"搜索逐字符高亮
+set hlsearch
+set incsearch
+
+" 高亮显示匹配的括号
+set showmatch
+
+
+" 侦测文件类型
+filetype on
+
+"打开文件类型检测, 加了这句才可以用智能补全
+set completeopt=longest,menu 
