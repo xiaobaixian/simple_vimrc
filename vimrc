@@ -48,3 +48,10 @@ filetype on
 
 "打开文件类型检测, 加了这句才可以用智能补全
 set completeopt=longest,menu 
+
+"设置空格
+set ts=4
+set expandtab
+
+"设置自动缩进
+set autoindent 
